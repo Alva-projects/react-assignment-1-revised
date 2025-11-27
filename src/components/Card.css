@@ -1,0 +1,30 @@
+.ProfileCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.Title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.description {
+  font-size: 0.925rem;
+}
+
+.tech {
+  font-size: 0.725rem;
+  margin-bottom: 0.5rem;
+}
+
+.repo_link {
+  font-size: 0.725rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
