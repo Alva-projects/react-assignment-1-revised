@@ -1,13 +1,20 @@
+import Contact from "../pages/Contact";
+import Home from "../pages/Home";
+import Portfolio from "../pages/Portfolio";
+import "./navbar.css";
+import { Link } from "react-router-dom";
 function Navbar() {
+    return(
     <>
-        <div>
+        <div className="navbar">
             <ul>
-                <a href="Home">Home</a>
-                <a href="Contact">Contact</a>
-                <a href="Portfolio">Portfolio</a>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/portfolio">Portfolio</Link></li>
+                <li><Link to="contact">Contact</Link></li>
             </ul>
         </div>
     </>
+    )
 }
 
 export default Navbar;

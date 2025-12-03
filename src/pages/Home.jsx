@@ -1,14 +1,11 @@
+import Navbar from "../components/Navbar";
 
 function Home() {
+    return(
     <>
-        <div>
-            <ul>
-                <a href="Home">Home</a>
-                <a href="Contact">Contact</a>
-                <a href="Portfolio">Portfolio</a>
-            </ul>
-        </div>
+        <h1>Home</h1>
     </>
+    )
 }
 
 export default Home;

@@ -15,7 +15,6 @@ function ShowBtn() {
         {show ? "Hide Projects" : "Show Projects"}
       </button>
       {show && <ProfileCard />}
-
     </div>
   );
 }

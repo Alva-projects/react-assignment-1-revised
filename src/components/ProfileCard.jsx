@@ -12,7 +12,7 @@ function ProfileCard() {
           screenshot={screenshotBhromaon}
           name={"Bhromaon"}
           repo={"https://github.com/Alva-projects/bhromaon.git"}
-          techUsed={"HTML and CSS5."}
+          techUsed={"HTML and CSS5."} 
           writeUp={"The project initially did not go as i planned it too. I tried to create all of the home page rather than only having time to create one part leaving the othe parts blank. It was a good challange wich made me practice prioritizing."
           }
         />
