@@ -1,5 +1,4 @@
-
-function Home() {
+function Navbar() {
     <>
         <div>
             <ul>
@@ -11,4 +10,4 @@ function Home() {
     </>
 }
 
-export default Home;
+export default Navbar;
