@@ -1,4 +1,5 @@
 import "../index.css";
+import ProfileCard from "./ProfileCard";
 
 function DetailCard({ project, onClose }) {
   return (
@@ -20,6 +21,16 @@ function DetailCard({ project, onClose }) {
             Close
           </button>
         </div>
+      </div>
+      <div className="mapping">
+        {DetailCard.map((project, index) => (
+          <ProfileCard
+            key={index}
+            pTitle={project.title}
+            pTags={project.tags}
+              
+          />
+        ))}
       </div>
     </div>
   );
