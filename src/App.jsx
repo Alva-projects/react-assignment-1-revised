@@ -6,7 +6,7 @@ import Contact from "./pages/Contact.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  //This is a React component. They are like parent functions, so I can make new functions inside of it.
+
   return (
     <>
       <BrowserRouter>
